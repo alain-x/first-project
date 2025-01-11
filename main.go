@@ -16,4 +16,7 @@ func main() {
     fmt.Printf("Total score is %f \n",score)
 	score= 3000
 	fmt.Printf("Total score is %0.1f \n",score)
+   // print int Array 
+	var ages[3]int =[3]int{1,3,4}
+	fmt.Println(ages)
 }
